@@ -15,15 +15,5 @@
 </html>
 
 <?php
-
-$numbers = array (7,9,8,9,8,8,6);
-function printArr($numbers)
-{
-    foreach($numbers AS $arr){
-        echo '<pre>'; print_r($arr); '</pre>';
-    }
-}
-printArr($numbers);
-
-
+include("function.php");
 ?>
