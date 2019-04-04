@@ -30,5 +30,15 @@ function average($numbers)
 }
 average($numbers);
 
+function removeDups($numbers)
+{
+    echo '<br>';
+    echo '<br>';
+   $result= array_unique($numbers);
+   echo "Without duplicates ";
+   print_r($result);
+}
+
+removeDups($numbers);
 
 ?>
