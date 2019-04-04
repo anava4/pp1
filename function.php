@@ -24,6 +24,7 @@ largest($numbers);
 function average($numbers)
 {
     echo '<br>';
+    echo '<br>';
     $average= array_sum($numbers) / count($numbers);
     echo "Average is ";
     echo $average;
@@ -41,4 +42,14 @@ function removeDups($numbers)
 
 removeDups($numbers);
 
+function distribution($numbers)
+{
+    echo '<br>';
+    echo '<br>';
+    $count = array_count_values($numbers);
+    echo "Distribution method ";
+    print_r($count);
+
+}
+distribution($numbers);
 ?>
