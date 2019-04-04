@@ -12,5 +12,13 @@ function printArr($numbers)
 }
 printArr($numbers);
 
+function largest($numbers)
+{
+    echo '<br>';
+    echo "Largest number is ";
+    echo max($numbers);
+}
+
+largest($numbers);
 
 ?>
