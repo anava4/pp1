@@ -21,4 +21,14 @@ function largest($numbers)
 
 largest($numbers);
 
+function average($numbers)
+{
+    echo '<br>';
+    $average= array_sum($numbers) / count($numbers);
+    echo "Average is ";
+    echo $average;
+}
+average($numbers);
+
+
 ?>
